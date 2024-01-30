@@ -18,6 +18,6 @@ const checkAns = (correct, mainContent, input) => {
         const fiveSeconds = setTimeout(() => {
             mainContent.style.height = 0;
             correct.innerHTML = "The wheel of mind spins to take you now, To get there you know the way how , How you get here is what will lead you to the clue for the end";
-        }, 2000);
+        }, 1000);
     }
 }   
